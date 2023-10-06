@@ -19,7 +19,7 @@
 Replace `<YOUR-USERNAME>` with your GitHub username in this guide.
 
 ### 1. Create a new folder to the folder participants
-Add a folder `participants/YOUR USERNAME/`.
+Add a folder `participants/YOUR-USERNAME/`.
 
 ### 2. Add your profile information
 
@@ -34,10 +34,16 @@ Copy the next template into your file, delete the boilerplate data and fill the 
 ```
 ---
 name: yourname
-github: your github url
-country: INSTITUTION_NAME
+github: your github_url
+country: your contry
 ---
 ```
+
+### 3. Create a new folder with the name `project` in the participant folder/YOUR USER NAME/
+Add a folder `participants/YOUR-USERNAME/project`.
+
+### 4. Create / Upload your code in folder `project`
+Upload the code and explain what code you created in the readme.md file, including application/web screenshots.
 
 ## simple-web-for-hacktoberfest
 This repository is used to collect simple web applications.
