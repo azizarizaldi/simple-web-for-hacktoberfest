@@ -37,12 +37,12 @@ github: your github_url
 country: your contry
 ---
 ```
-### 3. Create a new folder with the name `project` in the participant folder/YOUR-USERNAME/
+### 3. Create a new folder with the name `project` in the `participants/YOUR-USERNAME/`
 - Add a folder `participants/YOUR-USERNAME/project`.
 - Upload the code and explain what code you created in the readme.md file, including application/web screenshots.
 
-### 4. Create / Upload your code in folder `project`
-
+### 4. Wait for Pull Request to merge.
+### 5. Congratulations - you've done your pull request!!
 
 ## simple-web-for-hacktoberfest
 This repository is used to collect simple web applications.
