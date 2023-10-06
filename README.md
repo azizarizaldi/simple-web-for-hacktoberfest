@@ -15,7 +15,6 @@
 - Star this repository.
 
 ## How To Make Your First Pull Request?
-
 Replace `<YOUR-USERNAME>` with your GitHub username in this guide.
 
 ### 1. Create a new folder to the folder participants
@@ -38,12 +37,12 @@ github: your github_url
 country: your contry
 ---
 ```
-
-### 3. Create a new folder with the name `project` in the participant folder/YOUR USER NAME/
-Add a folder `participants/YOUR-USERNAME/project`.
+### 3. Create a new folder with the name `project` in the participant folder/YOUR-USERNAME/
+- Add a folder `participants/YOUR-USERNAME/project`.
+- Upload the code and explain what code you created in the readme.md file, including application/web screenshots.
 
 ### 4. Create / Upload your code in folder `project`
-Upload the code and explain what code you created in the readme.md file, including application/web screenshots.
+
 
 ## simple-web-for-hacktoberfest
 This repository is used to collect simple web applications.
