@@ -6,7 +6,7 @@
 **Hacktoberfest encourages participation in the open source community, which grows bigger every year.**
 **Register [here](https://hacktoberfest.digitalocean.com) for Hacktoberfest and make four pull requests (PRs) between October 1st-31st to grab free DIGITAL-SWAGS.**
 
-## INSTRUCTIONS
+## Instructions
 
 - Fork this Repository using the button at the top on right corner.
 - Clone your forked repository to your pc ( git clone "url from clone option.)
