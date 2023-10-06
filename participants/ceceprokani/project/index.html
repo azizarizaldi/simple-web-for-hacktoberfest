@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bookshelf Apps</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <body>
+    <header class="head_bar">
+      <img src="assets/images/notebook.png" />
+      <h1 class="head_bar__title">Bookshelf Apps</h1>
+    </header>
+    <main>
+      <section id="input_section" class="input_section">
+        <div class="header">
+          <button id="back" class="secondary">&#10094;</button>
+          <h2>Masukkan Buku Baru</h2>
+        </div>
+        <form id="inputBook">
+          <input type="hidden" id="inputBookId" />
+          <div class="input">
+            <label for="inputBookTitle">Judul</label>
+            <input id="inputBookTitle" placeholder="Masukan judul buku" type="text" required>
+          </div>
+          <div class="input">
+            <label for="inputBookAuthor">Penulis</label>
+            <input id="inputBookAuthor" placeholder="Masukan penulis buku" type="text" required>
+          </div>
+          <div class="input">
+            <label for="inputBookYear">Tahun</label>
+            <input id="inputBookYear" placeholder="Masukan tahun diterbitkan" type="number" required>
+          </div>
+          <div class="input_inline">
+            <input id="inputBookIsComplete" type="checkbox">
+            <label for="inputBookIsComplete">Selesai dibaca</label>
+          </div>
+          <button id="bookSubmit" type="submit">Masukan Buku ke rak <span>Belum selesai dibaca</span></button>
+        </form>
+      </section>
+
+      <section id="search_section" class="search_section">
+        <h2>Cari Buku</h2>
+        <form id="searchBook">
+          <input id="searchBookTitle" type="text" placeholder="Cari judul buku disini ...">
+          <button id="searchSubmit" type="submit">Cari</button>
+          <button id="addNewBook" type="submit">Tambah Baru</button>
+        </form>
+      </section>
+
+      <section id="book_shelf_complete" class="book_shelf">
+        <h2>Belum selesai dibaca</h2>
+
+        <div id="incompleteBookshelfList" class="book_list"></div>
+      </section>
+
+      <section id="book_shelf_incomplete" class="book_shelf">
+        <h2>Selesai dibaca</h2>
+
+        <div id="completeBookshelfList" class="book_list"></div>
+      </section>
+    </main>
+    <footer>Copyright &copy; 2023 | Cecep Rokani all served.</footer>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
